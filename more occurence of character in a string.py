@@ -10,9 +10,5 @@ for i in range (0,len(lst)):
             print(st[i])
          
          
-input:
-    abnqdan
-output:
-    a
-    n
+
   
