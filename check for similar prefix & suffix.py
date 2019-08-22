@@ -14,7 +14,3 @@ elif(c>0):
 
     
       
-input:
-    xxabcxxabcxx 
-output:
-    2
