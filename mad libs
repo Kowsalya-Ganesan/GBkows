@@ -1,0 +1,16 @@
+import random
+
+print( "MAD LIBS!")
+print ("Enter an example of each")
+
+random_name = input('Random name: ')
+your_name = input('Your name: ')
+place = input('Place: ')
+adjective = input('Adjective: ')
+
+adjectives = ["Crazy", "Nice", "Lovely", "Gross"]
+verbs = ["met", "proposed to", "robbed", "pushed"]
+prepositions = ["above the", "near the", "around the", "behind", "beside"]
+print((random.choice(adjs))+" "+random_name+" "+(random.choice(verbs)+" "+your_name+" "+(random.choice(prepositions))+" "+adjective+" "+place))
+
+
