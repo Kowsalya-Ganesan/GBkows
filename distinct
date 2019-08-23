@@ -1,0 +1,13 @@
+st=input()
+lst=[]
+print(st)
+c=0
+for i in st:
+    if i not in lst:
+        lst.append(i)
+print(lst)
+for i in st:
+    c=st.count(i)
+    if c==1:
+        print(i,end=" ")
+    
