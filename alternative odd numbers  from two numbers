@@ -1,0 +1,24 @@
+import sys
+
+if __name__ == '__main__':
+    x,y=raw_input().split()
+    x=int(x)
+    y=int(y)
+    ml=[]
+    nl=[]
+    m=raw_input().strip().split(" ")
+    n=raw_input().split(" ")
+    n.reverse()
+    for i in m:
+        if int(i)%2!=0:
+            ml.append(i)
+    for i in n:
+        if int(i)%2!=0:
+            nl.append(i)
+    mm=len(ml)
+    nn=len(nl)
+    k=min(mm,nn)
+    for i in range(0,k):
+        print ml[i],
+        print nl[i],
+            
