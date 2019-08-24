@@ -1,0 +1,10 @@
+def decor(func):
+    def wrap():
+        print("==========")
+        func()
+        print("==========")
+    return wrap 
+@decor
+def printtext():
+    print("HELLO WORLD")
+print text()
