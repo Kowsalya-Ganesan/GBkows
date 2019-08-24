@@ -1,0 +1,13 @@
+class A:
+    def method(self):
+        print("A METHOD")
+class B:
+    def second(self):
+        print("B METHOD")
+class C:
+    def third(self):
+        print("C METHOD")
+c=c()
+c.method()
+c.second()
+c.third()
