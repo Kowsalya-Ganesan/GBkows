@@ -5,7 +5,7 @@ for ch in strval:
     if ch.isalpha():
         if ord('z')<(ord(ch)+alphashift):
             diff=ord(ch)+alphashift-ord('z')
-            print(chr(ord('a')+(diff-1),end="")
+            print(chr(ord('a')+diff-1),end="")
         else:
             print(chr(ord(ch)+alphashift),end="")
     elif ch.isdigit():
