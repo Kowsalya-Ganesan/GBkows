@@ -1,0 +1,2 @@
+k = input().strip()
+print ( int ( k.replace( k[-1]  , '0' ) ) )
